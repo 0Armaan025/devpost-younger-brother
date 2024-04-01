@@ -56,6 +56,10 @@ const GroupsPage = () => {
               >
                 {group.name}
               </h2>
+
+              <button className="mt-1 w-[120px] p-2 bg-[#1b2740] text-white rounded-sm hover:bg-[#131b2c] transition-all">
+                Submit
+              </button>
             </div>
           </div>
         ))}
